@@ -2,5 +2,5 @@
 
 Live Preview :
 
-1. a
-2. a
+1. https://zuirez-qr-app.vercel.app/
+2. https://zuirez-qr-app.netlify.app/
