@@ -1,0 +1,97 @@
+:root
+{
+    --box-background : #ffffff1f;
+    --box-border : #ffffff56;
+    --search-background : #ffffff57;
+    --search-border : #ffffffb4;
+    --button-background : #ffffffe7;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-family: "Ubuntu", serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-image: linear-gradient(-225deg, #22E1FF 0%, #1D8FE1 48%, #625EB1 100%);
+}
+
+.container
+{
+    height: 100%;
+    width: 80%;
+    max-width: 450px;
+    background-color: var(--box-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 35px;
+    gap: 20px;
+    padding: 25px;
+    border: 1px solid var(--box-border);
+}
+
+#qrCode
+{
+    height: 250px;
+    width: 250px;
+    display: none;
+}
+
+#searchBar
+{
+    height: 50px;
+    width: 100%;
+    border: 1px solid var(--search-border);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 15px;
+    background: var(--search-background);
+    outline: none;
+}
+
+#searchButton
+{
+    width: 100%;
+    border: none;
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: var(--button-background);
+}
+
+#signature
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+#signature a
+{
+    text-decoration: none;
+    color: rgba(0, 247, 255, 0.822);
+}
+
+h1
+{
+    font-size: 35px;
+    color: white;
+}
